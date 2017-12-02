@@ -1,0 +1,28 @@
+{
+  "name": "beware-yon-death-trap",
+  "version": "1.0.0",
+  "description": "Hypertext demake of Spelunky using Fractive.",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NQNStudios/beware-yon-death-trap.git"
+  },
+  "keywords": [
+    "fractive",
+    "if",
+    "hypertext",
+    "adventure"
+  ],
+  "author": "Nat Quayle Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NQNStudios/beware-yon-death-trap/issues"
+  },
+  "homepage": "https://github.com/NQNStudios/beware-yon-death-trap#readme",
+  "devDependencies": {
+    "fractive": "^1.0.2"
+  }
+}
