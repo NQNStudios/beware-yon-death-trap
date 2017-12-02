@@ -2,8 +2,8 @@
   "name": "beware-yon-death-trap",
   "version": "1.0.0",
   "description": "Hypertext demake of Spelunky using Fractive.",
-  "main": "build.js",
   "scripts": {
+    "build": "cd node_modules/fractive && node lib/CLI.js compile ../../story",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +22,7 @@
     "url": "https://github.com/NQNStudios/beware-yon-death-trap/issues"
   },
   "homepage": "https://github.com/NQNStudios/beware-yon-death-trap#readme",
-  "devDependencies": {
-    "fractive": "^1.0.2"
+  "dependencies": {
+    "fractive": "git://github.com/invicticide/fractive#dev"
   }
 }
