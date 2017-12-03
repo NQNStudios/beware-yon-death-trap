@@ -1,0 +1,28 @@
+{
+    "title": "Untitled",
+    "author": "Anonymous",
+    "description": "An interactive story written in Fractive",
+    "website": "fractive.io",
+    "markdown": [
+        "source/**/*.md"
+    ],
+    "javascript": [
+        "source/**/*.js"
+    ],
+    "assets": [
+        "assets/**"
+    ],
+    "ignore": [],
+    "aliases": [],
+    "template": "template.html",
+    "output": "build",
+    "outputFormat": "prettify",
+    "linkTooltips": false,
+    "linkTags": {
+        "external": "",
+        "inline": "&nbsp; {$eyeIcon}",
+        "section": "&nbsp; {$stairIcon}",
+        "function": ""
+    },
+    "backButtonHTML": ""
+}
