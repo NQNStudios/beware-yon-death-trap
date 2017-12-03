@@ -20,8 +20,8 @@
     "linkTooltips": false,
     "linkTags": {
         "external": "",
-        "inline": "&nbsp; {$eyeIcon}",
-        "section": "&nbsp; {$stairIcon}",
+        "inline": "&nbsp;<i class='fa fa-eye' aria-hidden='true'></i>",
+        "section": "&nbsp;<i class='fa fa-sort-amount-asc' aria-hidden='true'></i>",
         "function": ""
     },
     "backButtonHTML": ""

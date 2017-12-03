@@ -6,6 +6,10 @@ Welcome... to the dungeon!!!
 
 [Or go to the next level]({@level2})
 
+[Link text should have {$macros} in it work.]
+
+{$eyeIcon}
+
 {{fuck}}
 
 Hello!

@@ -267,6 +267,7 @@
         var eyeIcon = '<i class="fa fa-eye" aria-hidden="true"></i>';
         var stairIcon = '<i class="fa fa-sort-amount-asc" aria-hidden="true"></i>';
         var goldIcon = '<i class="fa fa-usd" aria-hidden="true"></i>';
+        var macros = 'MACROS';
 
         // source/script.js
         // Your Javascript goes here
@@ -277,8 +278,10 @@
     <!-- source/text.md -->
     <div id="Start" class="section" hidden="true">
         <p>Welcome... to the dungeon!!!</p>
-        <p><a title="" href="#" data-replace-with="@fuck" id="_inline-0">look at this&nbsp; {$eyeIcon}</a></p>
-        <p><a title="" href="#" data-goto-section="level2">Or go to the next level&nbsp; {$stairIcon}</a></p>
+        <p><a title="" href="#" data-replace-with="@fuck" id="_inline-0">look at this&nbsp;<i class='fa fa-eye' aria-hidden='true'></i></a></p>
+        <p><a title="" href="#" data-goto-section="level2">Or go to the next level&nbsp;<i class='fa fa-sort-amount-asc' aria-hidden='true'></i></a></p>
+        <p>[Link text should have <span data-expand-macro="$macros"></span> in it work.]</p>
+        <p><span data-expand-macro="$eyeIcon"></span></p>
     </div>
     <div id="fuck" class="section" hidden="true">
         <p>Hello!</p>
